@@ -35,7 +35,8 @@ class LoginPage extends StatelessWidget {
               );
             },
             child: Text(
-              "Flat Button",
+              "Login",
+              style: TextStyle(backgroundColor: Colors.blue),
             ),
           )
         ],
