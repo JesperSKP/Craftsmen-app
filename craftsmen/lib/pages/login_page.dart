@@ -27,6 +27,17 @@ class LoginPage extends StatelessWidget {
               labelText: 'Password',
             ),
           ),
+          FlatButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => MenuPage()),
+              );
+            },
+            child: Text(
+              "Flat Button",
+            ),
+          )
         ],
       ),
     );
