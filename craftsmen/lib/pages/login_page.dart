@@ -56,6 +56,7 @@ class LoginPage extends StatelessWidget {
                           fontSize: 25.0, fontWeight: FontWeight.bold),
                     ),
                     onPressed: () {
+                      Navigator.pop(context);
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => MenuPage()),
@@ -66,6 +67,8 @@ class LoginPage extends StatelessWidget {
               ),
             ],
           ),
+
         ));
+
   }
 }

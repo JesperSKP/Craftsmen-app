@@ -1,3 +1,4 @@
+import 'package:craftsmen/pages/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:craftsmen/pages/profile_page.dart';
 import 'package:craftsmen/pages/projects_page.dart';
@@ -133,6 +134,31 @@ class MenuPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => ProfilePage()),
+                  );
+                },
+              ),
+            ),
+          ),
+          new Padding(
+            padding: const EdgeInsets.symmetric(
+              vertical: 20.0,
+              horizontal: 20.0,
+            ),
+            child: ButtonTheme(
+              minWidth: 300.0,
+              height: 50.0,
+              child: RaisedButton(
+                textColor: Colors.white,
+                color: Colors.blueAccent,
+                child: Text(
+                  'LogOut',
+                  style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
+                ),
+                onPressed: () {
+                  Navigator.pop(context);
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => LoginPage()),
                   );
                 },
               ),
