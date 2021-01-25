@@ -51,7 +51,7 @@ class LoginPage extends StatelessWidget {
                     textColor: Colors.white,
                     color: Colors.blueAccent,
                     child: Text(
-                      'Login',
+                      'Log ind',
                       style: TextStyle(
                           fontSize: 25.0, fontWeight: FontWeight.bold),
                     ),
@@ -67,8 +67,6 @@ class LoginPage extends StatelessWidget {
               ),
             ],
           ),
-
         ));
-
   }
 }
