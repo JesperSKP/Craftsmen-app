@@ -6,14 +6,17 @@ var materialName1 = "Egtræ";
 var materialAmount1 = 20;
 var materialType1 = "Meter";
 
-var materialName2 = "Sort mursten";
+var materialName2 = "rød mursten";
 var materialAmount2 = 50;
 var materialType2 = "stk";
 
 var materialName3 = "Bøgtræ";
 var materialAmount3 = 60;
 var materialType3 = "Meter";
+
+var materialName4 = "Sort mursten";
 var materialAmount4 = 50;
+var materialType4 = "stk";
 
 class StoragePurchasePage extends StatelessWidget {
   @override
