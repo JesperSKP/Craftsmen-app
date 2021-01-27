@@ -18,6 +18,8 @@ class NytProject extends StatelessWidget {
                 horizontal: 20.0,
               ),
               child: TextField(
+                minLines: 1,
+                maxLines: 10,
                 decoration: InputDecoration(
                   hintText: "opgave navn",
                   border: const OutlineInputBorder(),

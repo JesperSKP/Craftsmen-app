@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:craftsmen/pages/storage_purchase_page.dart';
+import 'package:craftsmen/pages/storage_page.dart';
 import 'package:flutter/rendering.dart';
 
 var materialName1 = "Egtræ";
@@ -13,12 +13,9 @@ var materialType2 = "stk";
 var materialName3 = "Bøgtræ";
 var materialAmount3 = 60;
 var materialType3 = "Meter";
-
-var materialName4 = "Sort mursten";
 var materialAmount4 = 50;
-var materialType4 = "stk";
 
-class StoragePage extends StatelessWidget {
+class StoragePurchasePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
